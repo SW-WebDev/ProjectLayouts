@@ -1,0 +1,51 @@
+*{
+	max-width:980px;
+	box-sizing: border-box;
+	background-color: white;
+}
+.wrapper{
+	background-color:  #666666;
+	margin:3px;
+	padding: 3px;
+
+}
+.flex-container {
+  display: flex;
+ /* flex-wrap: wrap;*/
+  background-color: #666666;
+}
+
+.flex-container > div {
+  background-color: #666666;
+  /*width: 100px;*/
+  margin: 3px;
+  text-align: center;
+  /*line-height: 40px;*/
+  color: white;
+  font-family: "Comic Sans MS"; 
+ 
+}
+@media only screen and (min-width: 768px) {
+.ph-7{
+  width: 33.33%;
+}
+.ph-8{width: 66.66%;}
+.ph-1{
+  width: 33.33%;
+}
+.ph-2{width: 66.66%;}
+
+.ph-3{width: 100%;}
+.ph-4{width: 33.333%;}
+.ph-5{width: 33.333%;}
+.ph-6{width: 33.333%;}
+.ph-9{width: 100%;}
+}
+.sb{
+  width: 33.33%;
+}
+.tc{width: 66.66%;}
+/* For mobile phones: */
+[class*="ph-"] {
+  width: 100%;
+}
